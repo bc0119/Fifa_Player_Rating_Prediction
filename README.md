@@ -11,7 +11,7 @@ My model’s purpose is to predict the players' overall rating based on their st
 ## Data Understanding
 The dataset (`fifa_players_22.csv`) was found in Kaggle, which was scrapped from sofifa.com. The data includes 19,000+ players with 110 columns of detailed player info & stats. 
 
-The players' distribution by overall rating shows a normal distribution, where many players are rated within the 60 – 73 range. 
+The players' distribution by overall rating shows a normal distribution. 67% of total players are rated within the 60 – 73 range. 
 
 ## Methods
 This project uses various regression models to predict the overall rating for FIFA players. The baseline models have solid performance with high R2 and low RMSE. Therefore, I have used other models to increase the performance. 
